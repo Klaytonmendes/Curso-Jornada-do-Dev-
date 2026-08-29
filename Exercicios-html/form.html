@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada do Dev</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="form2.html" type="submit">
+        <fieldset>
+        <legend><b>Endereço</b></legend>
+        <div>
+            <label for="input-endereco">Endereço</label>    
+            <input id="input-endereco" type="text" name="endereço" required/>
+        </div>
+        <br>
+        <div>
+            <label for="input-nome">Nome</label>
+            <input id="input-nome" type="text" name="nome"  disabled/>
+        </div>
+        </fieldset>
+    <fieldset>
+        <legend><b>Dados Pessoais</b></legend>
+        <div>
+            <label for="input-idade">Idade</label>
+            <input id="input-idade" type="number" name="idade" min="1" max="99" required/>
+        </div>
+        <br>
+        <div>
+            <label for="input-tel">Telefone</label>
+            <input id="input-tel" type="tel" placeholder="(99)9999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="Telefone"/>
+        </div>
+        <br>
+    </fieldset>
+        <div>
+            <label for="input-email">Email</label>
+            <input id="input-email" type="email" name="email" value="meuemail@gmail.com" readonly/>
+        </div>
+        <br>
+        <div>
+            <label for="input-search">Busca</label>
+            <input id="input-search" type="search" name="busca"/>
+        </div>
+        <br>
+        <div>
+            <label for="input-url">URL</label>
+            <input id="input-url" type="url" name="url"/>
+        </div>
+        <br>
+        <div>
+            <label for="input-senha">Senha</label>
+            <input id="input-senha" type="password" name="senha"/>
+        </div>
+        <br>
+        <div>
+            <label for="input-data">Data</label>
+            <input id="input-data" type="date" name="data"/>
+        </div>
+        <br>
+        <div>
+            <label for="input-data-time">Data e Tempo</label>
+            <input id="input-data-time" type="datetime-local" name="data-time"/>
+        </div>
+        <br>
+        <div>
+            <label for="input-time">Tempo</label>
+            <input id="input-time" type="time" name="time"/>
+        </div>
+        <br>
+        <div>
+            <label for="input-month">Mês</label>
+            <input id="input-month" type="month" name="mes"/>
+        </div>
+        <br>
+        <div>
+            <label for="input-week">Semana</label>
+            <input id="input-week" type="week" name="semana"/>
+        </div>
+        <br>
+        <div>
+            <label for="input-checkbox">
+                <input id="input-checkbox" type="checkbox" name="checar"/> Li e aceito os termos de uso
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="sim">
+                <input id="sim" type="radio" name="aceito"/> Sim
+            </label>
+            <label for="não">
+                <input id="não" type="radio" name="aceito"> Não
+            </label>
+        </div>
+        <br>
+        <div>~
+            <label for="input-cor">Cor</label>
+            <input id="input-cor" type="color" name="cor"/>
+        </div>
+        <br>
+        <div>
+            <label for="input-arquivo">Arquivo</label>
+            <input id="input-arquivo" type="file" name="arquivo" accept=".mp3,.mp4,.png,.jpg"  multiple />
+        </div>
+        <br>
+        <div>
+            <label for="input-range">Range</label>
+            <input id="input-range" type="range" name="range" min="0" max="10" step="1"/>
+        </div>
+        <br>
+        <div>
+            <input type="hidden" name="protocolo" value="000123"/>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Botão de Envio" /> <!-- Não faz sentido, melhor o button-->
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Limpar"/> <!-- Não faz sentido, melhor o button-->
+        </div>
+        <br>
+        <div>
+            <input type="image" src="Imagens/logo_bosch.png" width="130" height="150"/>
+        </div>
+        <br>
+        <div>
+            <label for="input-mensagem">Texto</label>
+            <textarea id="input-mensagem" name="mensagem" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="input-select">Selecionar</label>
+            <select id="input-select" name="opcoes" multiple>
+                <option value="1">Opção 1</option>
+                <option value="2">Opção 2</option>
+                <option value="3">Opção 3</option>
+            </select>
+        </div>
+        <button type="submit" >Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
+
+<!--
+Div são as "micro" divisões numa pagina, dividindo sua página web em
+pequenas "caixas";
+O heather é o cabeçalho da página, ficando no topo;
+O main é um bloco que fica todo o conteúdo da página;
+O footer é o radapé da página, ficando no final da página web;
+O nav vem de navegação, ele envolve menus, um menu que lhe leva para outras páginas ou diferentes partes do
+site;
+O section é utilizado para definir diferentes sessões de conteúdo, separando a página por partes;
+Aside são  as informações laterais, sendo um bloco de conteúdo lateral, complementeando o central;
+Article é um artigo
+-->
