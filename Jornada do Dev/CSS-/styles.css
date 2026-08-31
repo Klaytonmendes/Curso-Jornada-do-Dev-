@@ -1,0 +1,5 @@
+/*Esse deixa todos os parágrafos em vermelho e com fonte de 20px */
+p {
+    color:red;
+    font-size: 20px;
+}
