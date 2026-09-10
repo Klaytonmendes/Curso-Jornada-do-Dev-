@@ -1,0 +1,32 @@
+html {
+    background-color: #690da6;
+};
+
+/*
+CÓDIGO HEXADECIMAL
+
+hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F
+Vermelho: #FF0000
+Verde: #00FF00
+Azul: #0000FF
+
+PARA MEMORIZAÇÃO (rgb)
+
+Vermelho - Pouco
+Verde - Médio
+Azul - Muito
+
+Resultado: #27E
+
+PORÉM HÁ A (RRGGBB)
+Há uma variedade maior
+#598051
+#AB43EE
+
+alpha = transparência
+(RRGGBBAA)
+Este AA, define o nível de transparência, sendo 00 totalmente transparente e FF totalmente opaco.
+
+3 números iguais, quanto maior o número, mais claro é a cor
+
+*/

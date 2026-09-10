@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(0,0,0,);
+}
+
+/*
+    Aqui é código RGB (red, green, blue)
+    Limite de tonalidade é 0 - 255
+    Alpha no rgb é de 0 - 1, ou seja, 0,3, 0,6
+*/
+
+h1 {
+    /*color: hsl(hue, saturation, lightness, alpha (0-100%));*/
+    color: hsl(255, 255, 255
+    );
+
+}
