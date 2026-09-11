@@ -1,0 +1,32 @@
+html {
+    background-color: #333;
+}
+
+.opacity-div {
+    width: 300px;
+    height: 300px;
+    background-color: #999;
+    opacity: 0.1;
+}
+
+.opacity-div-2 {
+    width: 300px;
+    height: 300px;
+    background-color: #ccc;
+    visibility: visible;
+}
+
+/*
+Para ficar totalmente ou não vísivel, ou valores precisam estar entre 0-1
+0 = totalmente invisível
+1 = totalmente visível
+A diferença entre o alpha e o opacity, é que o alpha só deixa transparente o elemento
+O opacity deixa tudo, até mesmo o conteúdo dentro do elemento transparente
+*/
+
+
+/*
+Temos também o visibility, que evidencia ou não um elemento, por exemplo: hidden and visible
+A div continuará no local, porém sem estar visivel.
+Para ela sumir do local é só usar o display: none;
+*/

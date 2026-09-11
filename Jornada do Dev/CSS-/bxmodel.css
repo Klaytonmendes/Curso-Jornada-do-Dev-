@@ -1,0 +1,39 @@
+html {
+    background-color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    margin: 20PX;
+}
+
+.box-2 {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    opacity: 0.6;
+    margin: 20px;
+}
+
+/*
+MAGIN: Ela é um espaço externo que empurra seu objeto. Quando duas margins se encontram, elas não se somam, apenas se misturam.
+
+MAGIN-TOP: Aplica margin apenas no topo do objeto.
+MARGIN-BOTTOM: Aplica margin apenas em baixo.
+MARGIN-RIGHT: Aplica margin apenas na direita.
+MARGIN-LEFT: Aplica margin apenas na esquerda.
+
+Dá pra combinar entre si, cada um e também colocar todos na mesma linha: margin: 20px (cima) 42px (direita) 67px (baixo) 12px (esquerda).
+margin: 20px 42px 67px 12px.
+Se você colocar 2 valores, o primeiro é cima e em baixo e o segundo é as duas laterais.
+margin: 12px 14px.
+Se você colocar 3 valores, o primeiro é cima, o segundo os lados e o terceiro é para baixo.
+margin: 30px 29px 1px
+*/

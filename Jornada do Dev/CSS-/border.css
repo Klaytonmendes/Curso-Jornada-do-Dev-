@@ -1,0 +1,84 @@
+html {
+    background-color: #333;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: #999;
+    border: 10px solid #00ff00;
+}          
+
+.box-2 {
+    width: 300px;
+    height: 300px;
+    background-color: #999;
+    border-top: 5px solid #0a99ee;
+    border-right: 67px dotted #99fcaa;
+    border-bottom: 10px double #ccff88;
+    border-left: 50px groove #ff00ff;
+}
+
+/*
+Para criar uma borda precisamos de três propriedades:
+1. border-width: define a largura da borda;
+2. border-style: define o estilo da borda (solid, dashed, dotted, double, groove, ridge, inset, outset, none, inherit);
+3. border-color: define a cor da borda.
+Existe um atalho para definir todas as propriedades de borda de uma vez só, que é a propriedade border. Exemplo:
+border: 10px solid #00ff00;
+Dá para definir a borda de cada lado separadamente, usando as propriedades:
+border-top: 10px solid #00ff00;
+border-right: 10px solid #00ff00;
+border-bottom: 10px solid #00ff00;
+border-left: 10px solid #00ff00;
+*/
+
+.box-3 {
+    width: 300px;
+    height: 300px;
+    background-color: #999;
+    outline: solid 5px #ff0000;
+}
+
+.box-4 {
+    width: 300px;
+    height: 300px;
+    background-color: #999;
+    border: 15px solid #0000ff;
+    outline: solid 20px #ff0000;
+}
+/*
+A diferença entre a borda e o contorno (outline) é que a borda faz parte do elemento, enquanto o contorno é desenhado 
+fora do elemento, não ocupando espaço. Além disso, o contorno não pode ter bordas arredondadas.
+
+Eles podem ser usados juntos, mas o contorno não pode substituir a borda. O contorno é usado principalmente para destacar elementos, como em formulários, 
+quando um campo está em foco.
+*/
+
+.box-5 {
+    width: 300px;
+    height: 300px;
+    background-color: #999;
+    border-radius: 15px;
+    border: solid 5px #ff0000
+}
+
+.box-6 {
+    width: 300px;
+    height: 300px;
+    background-color: #999;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 150px;
+}
+/*A borda arredondada tem o limite maximo de 150px, até ela se tornar um circulo.
+Ela pode ser individual também.
+
+*/
