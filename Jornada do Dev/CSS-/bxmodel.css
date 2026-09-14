@@ -11,7 +11,8 @@ h1 {
     width: 300px;
     height: 300px;
     background-color: #fff;
-    margin: 20PX;
+    margin: 20px;
+    padding:20px;
 }
 
 .box-2 {
@@ -21,6 +22,45 @@ h1 {
     opacity: 0.6;
     margin: 20px;
 }
+
+#box {
+    width: 150px;
+    height: 150px;
+    background-color: #999;
+    padding:20px;
+    box-sizing: border-box;
+    margin: 30px;
+    /*
+    O border box considera a caixa inteira.
+    */
+}
+
+#box-2 {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: content-box;
+    margin: 30px;
+    /*
+    Ele soma o conteúdo e o padding.
+    */
+}
+
+#overflow-box{
+    width: 150px;
+    height: 150px;
+    background-color: #043507;
+    padding: 20px;
+    color: #fff;
+    /*overflow: auto;*/
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap; /*Não embrulha o conteúdo*/
+}
+
+
+
 
 /*
 MAGIN: Ela é um espaço externo que empurra seu objeto. Quando duas margins se encontram, elas não se somam, apenas se misturam.
@@ -36,4 +76,8 @@ Se você colocar 2 valores, o primeiro é cima e em baixo e o segundo é as duas
 margin: 12px 14px.
 Se você colocar 3 valores, o primeiro é cima, o segundo os lados e o terceiro é para baixo.
 margin: 30px 29px 1px
+*/
+
+/*
+O padding obedece a mesma característica do Margin, ou seja, toda a questão de númeraão e sequência
 */
