@@ -1,0 +1,169 @@
+html {
+    background-color: #333;
+}
+
+h1 {
+        color: #fff;
+}
+
+body {
+    font-family: 'Cormorant Garamond', 'Arial', 'Verdana', sans-serif;
+}
+
+.box {
+    padding: 20px;
+    background-color: #999;
+    width: 200px;
+    height: auto;   
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/*
+Tipos de Fontes:
+
+Fontes padrões e inserção de fontes personalizadas.
+Para mudar o tipo de fonte, nós devemos utilizar o font-family: No exemplo em body, pode-se notar que as fontes estão em sequência, pois, se caso houver ]
+uma fonte que não tenha no computador, o css irá procurar a seguinte, até encontrar.
+
+Para as fontes externas que provavelmente o seu computador e o computador do usuário não possua, nós iremos utilizar o google fonts. Então, use o import ou o link
+para apontar a fonte.
+*/
+
+.box-2 {
+    padding: 20px;
+    background-color: #999;
+    margin-bottom: 15px;
+    font-family: 'Arial';
+    font-size: 40px;
+}
+
+#test {
+    font-size: 5px; 
+}
+
+.h1-test {
+    font-size: 30px;
+}
+
+/*
+Tamanhos de Fontes:
+
+Agora iremos mudar o tamanho das nossas fontes. Para tal feito, podemos utilizar o font-size.
+Lembrando que a tag h1 não puxa nenhum tamanho de forma automática, ela apenas irá ser atribuída, quando utilizada de maneira direta, siga o exemplo.
+*/
+
+.box-3 {
+    padding: 20px;
+    margin: 15px;
+    background-color: #999;
+    font-family: 'Inter', sans-serif;
+}
+
+#p-1 {font-weight: 100;}
+#p-2 {font-weight: 200;}
+#p-3 {font-weight: 300;}
+#p-4 {font-weight: 400;}
+#p-5 {font-weight: 500;}
+#p-6 {font-weight: 600;}
+#p-7 {
+    font-weight: 700;
+    font-style: italic;
+}
+#p-8 {font-weight: 800;}
+#p-9 {font-weight: 900;}
+
+/*
+Expessura da Fonte: 400=normal
+Utilizamos o font style para mudar o estilo da fonte. No caso, coloquei um parágrafo em itálico.
+Lembrando que a fonte precisa aceitar as mudanças, se não, nada acontece
+*/
+
+.box-4 {
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #999;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.box-5 {
+    padding: 20px;
+    margin: 20px;
+    background-color: #999;
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+}
+
+/*
+Alinhamento de Texto: Bom é bem simples. Iremos utilizar o atributo text-align e os seguintes valores:
+left ou start, right ou end, justify e center.
+*/
+
+#dec-1 {
+    padding: 5px;
+    margin: 10px;
+    background-color: #999;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    text-decoration: underline double #00f;
+}
+
+#dec-2 {
+    padding: 5px;
+    margin: 10px;
+    background-color: #999;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    text-decoration: overline wavy #0f0;
+}
+
+#dec-3 {
+    padding: 5px;
+    margin: 10px;
+    background-color: #999;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    text-decoration: line-through dashed #f00
+}
+
+#dec-4 {
+    padding: 5px;
+    margin: 10px;
+    background-color: #999;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+#link {
+       text-decoration: none;
+} 
+
+#dec-5 {
+    padding: 5px;
+    margin: 10px;
+    background-color: #999;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    text-decoration: underline overline wavy #f00;
+}
+
+/*
+Decoração de Texto: Bom, iniciemos utilizando o atributo text-decoration e adicionando os valores.
+Os valores underline, overline e line-throught podem ter suas linhas estilizadas usando em seguida um solid (text-decoration: overline dotted;).
+Os 3 também podem ser usados como valores ao mesmo tempo, você só precisa colocar todos na atribuição e você pode misturar cores e valores.
+Um exemplo bom é com os links, na qual você pode apagar o underline usando apenas o none.
+*/
+
+.box {
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #999;
+    font-family: 'Arial', sans-serif;
+}
+
+.box-6 {text-transform: none;}
+.box-7 {text-transform: capitalize;} /*Todas as letras inicial com maiúsculas*/
+.box-8 {text-transform: uppercase;} /*Tudo MAIÚSCULO*/
+.box-9 {text-transform: lowercase;} /*Tudo minúsculo*/
+
+/*Utilizamos o atributo transform*/
