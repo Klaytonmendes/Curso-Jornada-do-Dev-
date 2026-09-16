@@ -167,3 +167,26 @@ Um exemplo bom é com os links, na qual você pode apagar o underline usando ape
 .box-9 {text-transform: lowercase;} /*Tudo minúsculo*/
 
 /*Utilizamos o atributo transform*/
+
+.box-10 {
+    letter-spacing: 30px;
+    overflow: auto;
+}
+
+.box-11 {
+    line-height: 30px;
+}
+
+/*
+Aqui é o espaçamento:
+Podemos usar o atributo line-height para definir o valor da distância das linhas
+e o atributo letter-spacing, que define a distância entre as letras.
+*/
+
+.box-12 {
+    color: #f00;
+}
+
+.link-2 {
+    color: inherit; /*Copia a cor de cima*/
+}
