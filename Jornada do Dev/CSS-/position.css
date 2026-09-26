@@ -1,0 +1,116 @@
+html{
+    background-color: #333;
+}
+h1 {
+    color: #fff;
+}
+p {
+    color: #fff;    
+}
+.box {
+    padding: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+    box-sizing: border-box;
+}
+.box-1 {
+    width: 33.3%;
+    float: left;
+    background-color: #e74c3ced;
+}
+.box-2 {
+    width: 33.3%;
+    float: left;
+    background-color: #2980b9;
+}
+.box-3 {
+    width: 33.3%;
+    float: left;
+    background-color: #27ae60;
+}
+.box-4 {
+    background-color: #f39c12;
+} 
+
+/*
+Aqui eu coloquei e usei o float para pegar minha div e subir a que estava em baixo, porém deixando a de cima na esquerda.
+Também usei o box-sizing que usa o float ignorando o padding.
+*/
+
+
+.box-5 {
+    background-color: #e74c3ced;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+}
+.box-6 {
+    background-color: #2980b9;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+.box-7 {
+    background-color: #27ae60;
+    width: 300px;
+    height: 300px;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0px;
+}
+.box-8 {
+    background-color: #f39c12;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+.box-a {
+    background-color: #555;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
+.box-b {
+    background-color: #888;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+}
+.box-c {
+    background-color: #aaa;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+}
+.box-d {
+    background-color: #ddd;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    color: #000;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/*
+Bem, aqui nós iremos utilizar o position para a mudança de posição das divs acima. Então, após mudar a posição de 
+static para absolute, nós começaremos a mexer com as coordenadas.   
+----
+No box-c, temos algo interessante. Imagina que eu queira que o box-d fique ao lado direito (right) do box-c, como
+posso fazer o c ser respeitado pelo d? Bem, primeiro temos que dizer que o box-c é relative, isso indica que tudo
+dentro dele é respeitado não pela tela, mas sim por ele.
+----
+No box-6, eu utilizei o position fixed, para ele ficar fixo na tela.
+----
+Mo box-7 eu utilizei o position sticky, a versão mais aprimorada do fixed. Ela permanece na posição normalmente, até 
+que quando ela for sair da tela, ela começa a descer.
+*/

@@ -1,0 +1,38 @@
+html {
+    background-color: #333;
+}
+h1 {
+    color: #fff;
+}
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3ced;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+    z-index: 2;
+}
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: #2980b9;
+    position: absolute;
+    top: 190px;
+    left: 140px;
+    z-index: 5;
+}
+.box-3 {
+    width: 100px;
+    height: 100px;
+    background-color: #27ae60;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    z-index: 1;
+}
+/*
+Bom, neste código, iremos aprender sobre o z-index. Aqui nós iremos analisar a profundidade de cada item no html.
+No html a profundidade do eixo Z, fica responsável pelo item mais "baixo" no código.
+Porém podemos contornar isso com o z-index. Saiba que maior o número atribuído ao z-index, mais profundidade no eixo Z ele tem
+*/
