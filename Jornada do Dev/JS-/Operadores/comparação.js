@@ -1,0 +1,15 @@
+/*
+IGUAL
+===
+DIFERENTE
+!==
+MAIOR
+>
+MENOR
+<
+MAIOR IGUAL
+>=
+MENOR IGUAL
+<=
+
+*/
